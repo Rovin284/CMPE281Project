@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CancelReceiver
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CancelReceiver\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=s
+comment1.target=void\ setServiceType(java.lang.String)
+comment1.text=\ public\ void\ resetScreen(World\ world){\r\n\ \ \ \ \ \ \ List<Message>\ worldMessages\ \=\ new\ ArrayList<Message>();\r\n\ \ \ \ \ \ \ worldMessages\ \=\ world.getObjects(Message.class);\r\n\ \ \ \ \ \ \ for(Message\ m\ \:\ worldMessages){\r\n\ \ \ \ \ \ \ \ world.removeObject(m);\r\n\ \ \ \ \ \ \ }\r\n\r\n}
+comment2.params=s
+comment2.target=void\ setFuelType(java.lang.String)
+comment3.params=w
+comment3.target=void\ helpInfo(greenfoot.World)
+comment4.params=w\ s
+comment4.target=void\ nextScreen(greenfoot.World,\ java.lang.String)
+comment5.params=buttonPressed\ world
+comment5.target=void\ printReceipt(java.lang.String,\ greenfoot.World)
+numComments=6

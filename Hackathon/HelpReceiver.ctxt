@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=HelpReceiver
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HelpReceiver\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ HelpReceiver()
+comment3.params=world
+comment3.target=void\ helpInfo(greenfoot.World)
+comment4.params=world
+comment4.target=void\ resetScreen(greenfoot.World)
+comment5.params=s
+comment5.target=void\ setFuelType(java.lang.String)
+comment6.params=s
+comment6.target=void\ setServiceType(java.lang.String)
+comment7.params=w\ s
+comment7.target=void\ nextScreen(greenfoot.World,\ java.lang.String)
+comment8.params=buttonPressed\ world
+comment8.target=void\ printReceipt(java.lang.String,\ greenfoot.World)
+numComments=9

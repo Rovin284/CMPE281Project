@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ContinueReceiver
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ContinueReceiver\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ ContinueReceiver\ wants\ to\ do.\ This\ method\ is\ called\r\n\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=world\ screen
+comment2.target=void\ nextScreen(greenfoot.World,\ java.lang.String)
+comment3.params=s
+comment3.target=void\ setServiceType(java.lang.String)
+comment3.text=\ public\ void\ resetScreen(World\ world){\r\n\ \ \ \ \ \ \ List<Message>\ worldMessages\ \=\ new\ ArrayList<Message>();\r\n\ \ \ \ \ \ \ worldMessages\ \=\ world.getObjects(Message.class);\r\n\ \ \ \ \ \ \ for(Message\ m\ \:\ worldMessages){\r\n\ \ \ \ \ \ \ \ world.removeObject(m);\r\n\ \ \ \ \ \ \ }\r\n\r\n}
+comment4.params=s
+comment4.target=void\ setFuelType(java.lang.String)
+comment5.params=w
+comment5.target=void\ helpInfo(greenfoot.World)
+comment6.params=buttonPressed\ world
+comment6.target=void\ printReceipt(java.lang.String,\ greenfoot.World)
+numComments=7
