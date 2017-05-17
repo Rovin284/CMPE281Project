@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Test Manager! | </title>
+
+    <!-- Bootstrap -->
+    <link href="/static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="/static/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="/static/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link href="/static/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="/static/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link href="/static/bootstrap-daterangepicker/daterangepicker.css" rel=" ">
+
+    <!-- Custom Theme Style -->
+    <link href="/static/custom.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+    <script src="/static/js/signUp.js"></script>
+    <script src="/static/js/createTestCase.js"></script>
+
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Test Manager!</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="/static/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>Abhidhar Joshi</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="showIndex">Dashboard</a></li>
+                      <li><a href="showIndex">Dashboard2</a></li>
+                      <li><a href="showIndex">Dashboard3</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-edit"></i> Projects <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="showProject">Project 1</a></li>
+                      <li><a href="showProject">Project 2</a></li>
+                      <li><a href="showProject">Project 3</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-table"></i> Test Cases <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="showTestCase">Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-table"></i> Bugs <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="showBugs">Details</a></li>
+                      <!--<li><a href="tables_dynamic.html">Table Dynamic</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-bar-chart-o"></i> Reports <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="showReports">View Report</a></li>
+                    </ul>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="right_col" role="main">
+          <!-- top tiles -->
+
+          <div class="row tile_count">
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="fa fa-user"></i> Total Testers</span>
+              <div class="count">5</div>
+              <!--<span class="count_bottom"><i class="green">4% </i> From last Week</span> -->
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="fa fa-clock-o"></i> Number of Test cases </span>
+              <div class="count">36</div>
+              <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span> -->
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="fa fa-user"></i> Number of Bugs </span>
+              <div class="count green">12</div>
+              <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> -->
+            </div>
+          </div>
+
+
+
+
+
+<!--           <div class="right_col" role="main">
+ -->          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Bugs <small>Create bugs by entering the required fields</small></h3>
+              </div>
+
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+        <form class="form-signin" action="/bugsInput" method="post">
+        <label for="ProjectNameB" class="sr-only">Project Name:</label>Project Name :
+        <input type="text" name="ProjectNameB" id="ProjectNameB" class="form-control" placeholder="ProjectName" required autofocus>
+        <label for="BugId" class="sr-only">Bug Id :</label>Bug Id :
+        <input type="text" name="BugId" id="BugId" class="form-control" placeholder="BugId" required>
+        <label for="TestCaseIdB" class="sr-only">Test Case Id</label>Test Case Id
+        <input type="text" name="TestCaseIdB" id="TestCaseIdB" class="form-control" placeholder="TestCaseId" required>
+        <label for="IssueType" class="sr-only">Issue Type</label>Issue Type
+        <input type="text" name="IssueType" id="IssueType" class="form-control" placeholder="IssueType" required>
+        <label for="Summary" class="sr-only">Summary</label>Summary
+        <input type="text" name="Summary" id="Summary" class="form-control" placeholder="Summary" required>
+        <label for="PriorityB" class="sr-only">Priorityn</label>Priority
+        <input type="text" name="PriorityB" id="PriorityB" class="form-control" placeholder="Priority" required>
+         <label for="CommentB" class="sr-only">Comment</label>Comment
+        <input type="text" name="CommentB" id="CommentB" class="form-control" placeholder="Add Comment" required>
+        <label for="Description" class="sr-only">Description</label> Description
+        <input type="text" name="Description" id="Description" class="form-control" placeholder="Description" required>
+        <label for="AssignedBy" class="sr-only">Assigned By</label>Assigned By
+        <input type="text" name="AssignedBy" id="AssignedBy" class="form-control" placeholder="Assigned By" required>
+        <label for="AssignedTo" class="sr-only">AssignedTo</label>Assigned To
+        <input type="text" name="AssignedTo" id="AssignedTo" class="form-control" placeholder="Assigned To" required>
+        <label for="Stepstoreproduce" class="sr-only">Steps to reproduce</label>Steps to reproduce
+        <input type="text" name="Stepstoreproduce" id="Stepstoreproduce" class="form-control" placeholder="Steps to reproduce" required>
+        <label for="Status" class="sr-only">Status</label>Status
+        <input type="text" name="Status" id="Status" class="form-control" placeholder="Status" required>
+       <label for="FileinputB" class="sr-only">Fileinput</label>Fileinput
+        <input type="file" name="FileinputB" id="FileinputB" class="form-control">
+        <button id="btnSignIn" class="btn btn-lg btn-primary btn-block" type="submit">Create</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+        </div>
+
+
+          <br />
+
+          <div class="row">
+                </div>
+                <!-- end of weather widget -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="/static/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="/static/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="/static/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="/static/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="/static/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="/static/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="/static/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="/static/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="/static/Flot/jquery.flot.js"></script>
+    <script src="/static/Flot/jquery.flot.pie.js"></script>
+    <script src="/static/Flot/jquery.flot.time.js"></script>
+    <script src="/static/Flot/jquery.flot.stack.js"></script>
+    <script src="/static/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="/static/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="/static/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="/static/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="/static/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="/static/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="/static/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="/static/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="/static/moment/min/moment.min.js"></script>
+    <script src="/static/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="/static/js/custom.min.js"></script>
+
+  </body>
+</html>
