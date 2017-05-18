@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>Report 3 </title>
 
     <!-- Bootstrap -->
     <link href="/static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <link href="/static/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
     <link href="/static/iCheck/skins/flat/green.css" rel="stylesheet">
-  
+
     <!-- bootstrap-progressbar -->
     <link href="/static/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- JQVMap -->
@@ -201,21 +201,21 @@
 
         <div class="right_col" role="main">
           <!-- top tiles -->
-        
+
           <div class="row tile_count">
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-user"></i> Total Testers</span>
-              <div class="count">{{count}}</div>
+              <div class="count">56</div>
               <!--<span class="count_bottom"><i class="green">4% </i> From last Week</span> -->
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-clock-o"></i> Number of Test cases </span>
-              <div class="count">{{tcCount}}</div>
+              <div class="count">436</div>
               <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span> -->
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-user"></i> Number of Bugs </span>
-              <div class="count green">{{bCount}}</div>
+              <div class="count green">283</div>
               <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> -->
             </div>
           </div>
@@ -231,16 +231,6 @@
                 <h3> Reports <small></small></h3>
               </div>
 
-              <div class="title_right">
-                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div class="clearfix"></div>
@@ -270,38 +260,6 @@
                   </div>
                   <div class="x_content">
 
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>Test Case Id</th>
-                          <th>Description</th>
-                          <th>Priority</th>
-                          
-                          <th>Designer</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {% for value in listToIterate %}
-
-                        <tr>
-                          <td>{{ value+1 }}</td>
-                          <td>{{ list2[value] }}</td>
-                          <td>{{ list3[value] }}</td>
-                          <td>{{ list4[value] }}</td>
-                          <td>{{ list5[value] }}</td>
-                          <td>
-                            <form action="/pass"><span class="input-group-btn">
-                      <button class="btn btn-default" id= "pass" type="button">Pass</button>
-                            </span></form></td>
-                          <td><span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Fail</button>
-                          </span></td>
-                        </tr>
-                        {% endfor %}
-                      </tbody>
-                    </table>
-
                   </div>
                 </div>
               </div>
@@ -313,16 +271,6 @@
                 <h3></h3>
               </div>
 
-              <div class="title_right">
-                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div class="clearfix"></div>
@@ -445,6 +393,6 @@
 
     <!-- Custom Theme Scripts -->
     <script src="/static/custom.min.js"></script>
-  
+
   </body>
 </html>

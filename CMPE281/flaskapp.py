@@ -92,6 +92,7 @@ def showReport3():
     listToIterate = []
 
     print "list11111"
+    counter = 0
     print list1
     for value in listDe:
         listToIterate.append(counter)
@@ -99,7 +100,32 @@ def showReport3():
         count = countTesters()
         countTC = countTestCases()
         countB = countBugs()
-    return render_template('Reoprts.html',count=count, tcCount=countTC, bCount=countB,listToIterate=listToIterate,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe)
+    return render_template('Reports3.html',count=count, tcCount=countTC, bCount=countB,listToIterate=listToIterate,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe)
+
+@app.route('/showReports5',methods=['POST', 'GET'])
+def showReports5():
+    _name = request.form["BugId"]
+    data = getBugDetailsP(_name)
+    print "ROVIN 123457"
+    listToIterateB = []
+    listBugId = data[0]
+    listAssignedTo = data[1]
+    listDescription = data[2]
+    listSeverity = data[3]
+    listStatus = data[4]
+
+    print data[0]
+    print listStatus
+    counter1 = 0
+
+    for value in listBugId:
+        listToIterateB.append(counter1)
+        counter1 = counter1 + 1
+
+    count = countTesters()
+    countTC = countTestCases()
+    countB = countBugs()
+    return render_template('Report5.html',count=count, tcCount=countTC, bCount=countB,listToIterate=listToIterateB,list6 = listBugId,list8=listAssignedTo,list9=listDescription,list10=listSeverity,list11= listStatus)
 
 
 @app.route('/showBugs')
@@ -115,6 +141,13 @@ def showReports2():
     countTC = countTestCases()
     countB = countBugs()
     return render_template('Reports.html', count=count, tcCount=countTC, bCount=countB)
+
+@app.route('/showReports4', methods=['POST', 'GET'])
+def showReports4():
+    count = countTesters()
+    countTC = countTestCases()
+    countB = countBugs()
+    return render_template('Reports4.html', count=count, tcCount=countTC, bCount=countB)
 
 @app.route('/showReports', methods=['POST', 'GET'])
 def showReports():
@@ -168,10 +201,13 @@ def getReportTC(_name):
         con = mysql.connect()
         cursor = con.cursor()
 
-        query = ("SELECT * FROM TestCaseDetails "
-                 "WHERE TestCaseDesigner = %s")
+        print "_name"
+        print _name
 
-        cursor.execute(query, _name)
+        query = ("SELECT * FROM TestCaseDetails "
+         "WHERE TestCaseDesigner = %s")
+
+        data = cursor.execute(query,_name)
 
         print query
         list1 = []
@@ -180,7 +216,7 @@ def getReportTC(_name):
         listP = []
         listDe = []
 
-        data = cursor.execute(query)
+
         for data in cursor.fetchall():
             print "Inside ----"
             print data[1]
@@ -191,11 +227,52 @@ def getReportTC(_name):
             listD.append(data[5])
             listP.append(data[11])
             listDe.append(data[12])
-
+        print "THIS IS TNE"
+        print list1
         print listTC
         listr = [list1,listTC,listD,listP,listDe]
         return  listr
 
+    except Exception as e:
+        return json.dumps({'error': str(e)})
+    finally:
+        cursor.close()
+        con.close()
+
+
+def getBugDetailsP(_BugId):
+    try:
+        con = mysql.connect()
+        cursor = con.cursor()
+        query1 = ("SELECT * FROM BugDetails "
+                  "WHERE BugId = %s")
+
+        list2 = []
+        listBugId = []
+        listAssignedTo = []
+        listDescription = []
+        listSeverity = []
+        listStatus = []
+
+        print "---Query 1--"
+        print _BugId
+
+        data1 = cursor.execute(query1,_BugId)
+        #print data1
+        for data1 in cursor.fetchall():
+            print "---Indsie ---"
+            i = 1
+            list2.append(i)
+            i = i + 1
+            print data1[1]
+            listBugId.append(data1[1])
+            listAssignedTo.append(data1[9])
+            listDescription.append(data1[7])
+            listSeverity.append(data1[5])
+            listStatus.append(data1[11])
+        print listAssignedTo
+        listb = [listBugId, listAssignedTo, listDescription, listSeverity, listStatus, list2]
+        return listb
     except Exception as e:
         return json.dumps({'error': str(e)})
     finally:
@@ -734,4 +811,4 @@ def validateLogin():
         con.close()
 
 if __name__ == "__main__":
-    app.run(port=5005,debug=True)
+    app.run(port=5006,debug=True)

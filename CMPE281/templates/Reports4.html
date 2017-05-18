@@ -17,7 +17,7 @@
     <link href="/static/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
     <link href="/static/iCheck/skins/flat/green.css" rel="stylesheet">
-  
+
     <!-- bootstrap-progressbar -->
     <link href="/static/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- JQVMap -->
@@ -69,6 +69,7 @@
                   <li><a><i class="fa fa-edit"></i> Projects <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="showProject">View Projects</a></li>
+                      <li><a href="showProject2">View Projects2</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Test Cases <span class="fa fa-chevron-down"></span></a>
@@ -201,24 +202,7 @@
 
         <div class="right_col" role="main">
           <!-- top tiles -->
-        
-          <div class="row tile_count">
-            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Total Testers</span>
-              <div class="count">{{count}}</div>
-              <!--<span class="count_bottom"><i class="green">4% </i> From last Week</span> -->
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-              <span class="count_top"><i class="fa fa-clock-o"></i> Number of Test cases </span>
-              <div class="count">{{tcCount}}</div>
-              <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span> -->
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Number of Bugs </span>
-              <div class="count green">{{bCount}}</div>
-              <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> -->
-            </div>
-          </div>
+
 
 
 
@@ -228,16 +212,13 @@
  -->          <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3> Reports <small></small></h3>
+                <h3>Search Reports <small></small></h3>
               </div>
 
               <div class="title_right">
                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
+
                   </div>
                 </div>
               </div>
@@ -270,37 +251,13 @@
                   </div>
                   <div class="x_content">
 
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>Test Case Id</th>
-                          <th>Description</th>
-                          <th>Priority</th>
-                          
-                          <th>Designer</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {% for value in listToIterate %}
 
-                        <tr>
-                          <td>{{ value+1 }}</td>
-                          <td>{{ list2[value] }}</td>
-                          <td>{{ list3[value] }}</td>
-                          <td>{{ list4[value] }}</td>
-                          <td>{{ list5[value] }}</td>
-                          <td>
-                            <form action="/pass"><span class="input-group-btn">
-                      <button class="btn btn-default" id= "pass" type="button">Pass</button>
-                            </span></form></td>
-                          <td><span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Fail</button>
-                          </span></td>
-                        </tr>
-                        {% endfor %}
-                      </tbody>
-                    </table>
+                      <form action="/showReports5" method="post">
+                      <label for="BugId" class="sr-only">BugId</label>Bug ID
+                       <input type="text" name="BugId" id="BugId" class="form-control" placeholder="Bug Id" required>
+                      <button id="btnSignIn" class="btn btn-primary" type="submit">Submit</button>
+                      </form>
+
 
                   </div>
                 </div>
@@ -316,10 +273,7 @@
               <div class="title_right">
                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
+
                   </div>
                 </div>
               </div>
@@ -328,60 +282,7 @@
             <div class="clearfix"></div>
 
 
-            <div id="table">
-              <div class="">
-                <div class="">
-                  <div class="x_title">
-                    <h2>Bugs <small></small></h2>
-                    <ul class="nav navbar-right panel_toolbox">
-                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a class="close-link"><i class="fa fa-close"></i></a>
-                      </li>
-                    </ul>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
 
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>Bug Id</th>
-                          <th>Description</th>
-                          <th>Assigned To</th>
-                          <th>Severity</th>
-                          <th>Status</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {% for value in listToIterateB %}
-                        <tr>
-                          <td>{{ value+1 }}</td>
-                          <td>{{ list6[value] }}</td>
-                          <td>{{ list9[value] }}</td>
-                          <td>{{ list8[value] }}</td>
-                          <td>{{ list10[value] }}</td>
-                          <td>{{ list11[value] }}</td>
-                        </tr>
-                        {% endfor %}
-                      </tbody>
-                    </table>
-
-                  </div>
-                </div>
-              </div>
-
-          </div>
         </div>
      <br />
 
@@ -445,6 +346,6 @@
 
     <!-- Custom Theme Scripts -->
     <script src="/static/custom.min.js"></script>
-  
+
   </body>
 </html>

@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/CMPE281$Unittests_in_app_py.coverage" NAME="Unittests in app.py Coverage Results" MODIFIED="1494980951833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CMPE273$Test.coverage" NAME="Test Coverage Results" MODIFIED="1491093848210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CMPE273$frontend.coverage" NAME="frontend Coverage Results" MODIFIED="1493514833787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CMPE281$app.coverage" NAME="app Coverage Results" MODIFIED="1495088532325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CMPE281$app.coverage" NAME="app Coverage Results" MODIFIED="1495131341491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -24,56 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flaskapp.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flaskapp.py">
+      <file leaf-file-name="TestCaseDetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/TestCaseDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
-                <marker date="1495089980000" expanded="true" signature="4919:4996" ph="SELECT * FRO... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="5838:5862" ph="SELECT * FRO... BugDetails" />
-                <marker date="1495089980000" expanded="true" signature="6900:6929" ph="SELECT * FRO... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="7733:7757" ph="SELECT * FRO... BugDetails" />
-                <marker date="1495089980000" expanded="true" signature="7733:7759" ph="SELECT * FRO... BugDetails" />
-                <marker date="1495089980000" expanded="true" signature="8795:8824" ph="SELECT * FRO... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="8795:8826" ph="SELECT * FRO... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="9624:9696" ph="SELECT * FRO... BugDetails" />
-                <marker date="1495089980000" expanded="true" signature="10727:10741" ph="SELECT * FRO... userinfo" />
-                <marker date="1495089980000" expanded="true" signature="10727:10796" ph="SELECT * FRO... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="10727:10807" ph="SELECT * FRO... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="11604:11633" ph="SELECT count... userinfo" />
-                <marker date="1495089980000" expanded="true" signature="12037:12073" ph="SELECT count... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="12472:12503" ph="SELECT count... BugDetails" />
-                <marker date="1495089980000" expanded="true" signature="12916:12952" ph="SELECT count... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="12916:12986" ph="SELECT count... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="12916:12992" ph="SELECT count... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="12916:13003" ph="SELECT count... TestCaseDetails" />
-                <marker date="1495089980000" expanded="true" signature="13410:13492" ph="SELECT count... BugDetails" />
-                <marker date="1495089980000" expanded="true" signature="13910:13962" ph="SELECT * FRO... project" />
-                <marker date="1495089980000" expanded="true" signature="15099:15341" ph="insert into BugDetails... " />
-                <marker date="1495089980000" expanded="true" signature="17948:18260" ph="insert into TestCaseDetails... " />
-                <marker date="1495089980000" expanded="true" signature="19458:19512" ph="SELECT * FRO... userinfo" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Project.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="142" column="44" lean-forward="false" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Project1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-535">
-              <caret line="89" column="72" lean-forward="false" selection-start-line="89" selection-start-column="72" selection-end-line="89" selection-end-column="72" />
+            <state relative-caret-position="192">
+              <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -82,28 +37,28 @@
       <file leaf-file-name="BugDetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/BugDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="43" />
+            <state relative-caret-position="329">
+              <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="Project.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+            <state relative-caret-position="429">
+              <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCaseDetails.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/TestCaseDetails.html">
+      <file leaf-file-name="Project1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Project1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="114" column="42" lean-forward="false" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+            <state relative-caret-position="139">
+              <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -112,8 +67,40 @@
       <file leaf-file-name="Reoprts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Reoprts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="213" column="18" lean-forward="true" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+            <state relative-caret-position="201">
+              <caret line="80" column="39" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reports3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Reports3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Report5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Report5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -122,18 +109,18 @@
       <file leaf-file-name="Reports.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Reports.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4275">
-              <caret line="285" column="64" lean-forward="false" selection-start-line="285" selection-start-column="48" selection-end-line="285" selection-end-column="64" />
+            <state relative-caret-position="87">
+              <caret line="73" column="75" lean-forward="true" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reports3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Reports3.html">
+      <file leaf-file-name="Reports4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Reports4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4350">
-              <caret line="290" column="49" lean-forward="false" selection-start-line="290" selection-start-column="49" selection-end-line="290" selection-end-column="49" />
+            <state relative-caret-position="178">
+              <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -153,14 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Servi</find>
-      <find>shiv</find>
-      <find>Main</find>
-      <find>.jp</find>
-      <find>showSignUp</find>
-      <find>Details</find>
-      <find>John</find>
-      <find>Abh</find>
       <find>img</find>
       <find>Repo</find>
       <find>checkAllFromDB</find>
@@ -170,7 +149,6 @@
       <find>showRe</find>
       <find>TestC</find>
       <find>Desi</find>
-      <find>getReportTC</find>
       <find>showReport3</find>
       <find>Testcase</find>
       <find>TestCaseDeta</find>
@@ -183,6 +161,15 @@
       <find>56</find>
       <find>36</find>
       <find>5</find>
+      <find>Project</find>
+      <find>24</find>
+      <find>23</find>
+      <find>Project 3</find>
+      <find>Reports.</find>
+      <find>getReportTC</find>
+      <find>Go!</find>
+      <find>showReport2</find>
+      <find>Test C</find>
     </findStrings>
     <replaceStrings>
       <replace>Services</replace>
@@ -205,15 +192,18 @@
         <option value="$PROJECT_DIR$/static/js/createTestCase.js" />
         <option value="$PROJECT_DIR$/static/js/signUp.js" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/js/custom.min.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/Project1.html" />
-        <option value="$PROJECT_DIR$/templates/Reports3.html" />
-        <option value="$PROJECT_DIR$/templates/Reports.html" />
         <option value="$PROJECT_DIR$/templates/TestCaseDetails.html" />
-        <option value="$PROJECT_DIR$/templates/BugDetails.html" />
-        <option value="$PROJECT_DIR$/templates/Reoprts.html" />
-        <option value="$PROJECT_DIR$/templates/Project.html" />
         <option value="$PROJECT_DIR$/flaskapp.py" />
+        <option value="$PROJECT_DIR$/templates/Reoprts.html" />
+        <option value="$PROJECT_DIR$/templates/Reports3.html" />
+        <option value="$PROJECT_DIR$/templates/Report5.html" />
+        <option value="$PROJECT_DIR$/templates/Reports.html" />
+        <option value="$PROJECT_DIR$/templates/Reports4.html" />
+        <option value="$PROJECT_DIR$/templates/BugDetails.html" />
+        <option value="$PROJECT_DIR$/templates/Project.html" />
+        <option value="$PROJECT_DIR$/templates/Project1.html" />
       </list>
     </option>
   </component>
@@ -242,7 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,9 +259,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMPE281" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMPE281" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -640,6 +644,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -675,28 +680,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/signUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -831,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/DBCommand" />
     <entry file="file://$PROJECT_DIR$/static/js/signUp.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -860,108 +836,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/flask/exthook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/custom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1" column="14121" lean-forward="false" selection-start-line="1" selection-start-column="14121" selection-end-line="1" selection-end-column="14121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="813" column="21" lean-forward="false" selection-start-line="813" selection-start-column="21" selection-end-line="813" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+            <marker date="1495131335000" expanded="true" signature="6007:6076" ph="SELECT * FRO... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="6936:6960" ph="SELECT * FRO... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="6936:6998" ph="SELECT * FRO... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="8039:8063" ph="SELECT * FRO... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="9101:9130" ph="SELECT * FRO... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="9934:9958" ph="SELECT * FRO... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="9934:9960" ph="SELECT * FRO... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="10996:11025" ph="SELECT * FRO... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="10996:11027" ph="SELECT * FRO... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="11825:11897" ph="SELECT * FRO... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="12928:12942" ph="SELECT * FRO... userinfo" />
+            <marker date="1495131335000" expanded="true" signature="12928:12997" ph="SELECT * FRO... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="12928:13008" ph="SELECT * FRO... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="13805:13834" ph="SELECT count... userinfo" />
+            <marker date="1495131335000" expanded="true" signature="14238:14274" ph="SELECT count... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="14673:14704" ph="SELECT count... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="15117:15153" ph="SELECT count... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="15117:15187" ph="SELECT count... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="15117:15193" ph="SELECT count... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="15117:15204" ph="SELECT count... TestCaseDetails" />
+            <marker date="1495131335000" expanded="true" signature="15611:15693" ph="SELECT count... BugDetails" />
+            <marker date="1495131335000" expanded="true" signature="16111:16163" ph="SELECT * FRO... project" />
+            <marker date="1495131335000" expanded="true" signature="17300:17542" ph="insert into BugDetails... " />
+            <marker date="1495131335000" expanded="true" signature="20149:20461" ph="insert into TestCaseDetails... " />
+            <marker date="1495131335000" expanded="true" signature="21659:21713" ph="SELECT * FRO... userinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Reports4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Reports.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4275">
-          <caret line="285" column="64" lean-forward="false" selection-start-line="285" selection-start-column="48" selection-end-line="285" selection-end-column="64" />
+        <state relative-caret-position="87">
+          <caret line="73" column="75" lean-forward="true" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Report5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Reports3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4350">
-          <caret line="290" column="49" lean-forward="false" selection-start-line="290" selection-start-column="49" selection-end-line="290" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/flask/exthook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+        <state relative-caret-position="125">
+          <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Reoprts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="80" column="39" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/TestCaseDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="42" lean-forward="false" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Reoprts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="213" column="18" lean-forward="true" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+        <state relative-caret-position="192">
+          <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/BugDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="43" />
+        <state relative-caret-position="329">
+          <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="142" column="44" lean-forward="false" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
+        <state relative-caret-position="429">
+          <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Project1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-535">
-          <caret line="89" column="72" lean-forward="false" selection-start-line="89" selection-start-column="72" selection-end-line="89" selection-end-column="72" />
+        <state relative-caret-position="139">
+          <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-            <marker date="1495089980000" expanded="true" signature="4919:4996" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="5838:5862" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495089980000" expanded="true" signature="6900:6929" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="7733:7757" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495089980000" expanded="true" signature="7733:7759" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495089980000" expanded="true" signature="8795:8824" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="8795:8826" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="9624:9696" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495089980000" expanded="true" signature="10727:10741" ph="SELECT * FRO... userinfo" />
-            <marker date="1495089980000" expanded="true" signature="10727:10796" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="10727:10807" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="11604:11633" ph="SELECT count... userinfo" />
-            <marker date="1495089980000" expanded="true" signature="12037:12073" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="12472:12503" ph="SELECT count... BugDetails" />
-            <marker date="1495089980000" expanded="true" signature="12916:12952" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="12916:12986" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="12916:12992" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="12916:13003" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495089980000" expanded="true" signature="13410:13492" ph="SELECT count... BugDetails" />
-            <marker date="1495089980000" expanded="true" signature="13910:13962" ph="SELECT * FRO... project" />
-            <marker date="1495089980000" expanded="true" signature="15099:15341" ph="insert into BugDetails... " />
-            <marker date="1495089980000" expanded="true" signature="17948:18260" ph="insert into TestCaseDetails... " />
-            <marker date="1495089980000" expanded="true" signature="19458:19512" ph="SELECT * FRO... userinfo" />
-          </folding>
         </state>
       </provider>
     </entry>
