@@ -70,9 +70,7 @@
                   </li>
                   <li><a><i class="fa fa-edit"></i> Projects <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="showProject">Project 1</a></li>
-                      <li><a href="showProject">Project 2</a></li>
-                      <li><a href="showProject">Project 3</a></li>
+                     <li><a href="showProject">View Projects</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-table"></i> Test Cases <span class="fa fa-chevron-down"></span></a>
@@ -137,239 +135,19 @@
 
         <div class="right_col" role="main">
           <!-- top tiles -->
-        
-          <div class="row tile_count">
-            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Total Testers</span>
-              <div class="count">5</div>
-              <!--<span class="count_bottom"><i class="green">4% </i> From last Week</span> -->
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-              <span class="count_top"><i class="fa fa-clock-o"></i> Number of Test cases </span>
-              <div class="count">36</div>
-              <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span> -->
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Number of Bugs </span>
-              <div class="count green">12</div>
-              <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> -->
-            </div>
-          </div>
+          <h1>You can view your projects here.</h1>
+
+          <form class="form-signin" action="/showProject2" method="post">
+          <label class="sr-only">Select Project Name:</label><h2>Select Project Name :</h2>
+            <select name = "DropdownP">
+              {% for value in list1 %}
+              <option value="{{ value }}">{{ value }}</option>
+              {% endfor %}
+            </select>
+          <button id="btnSignIn" class="btn btn-primary" type="submit">View</button>
+          </form>
 
 
-
-
-
-<!--           <div class="right_col" role="main">
- -->          <div class="">
-            <div class="page-title">
-              <div class="title_left">
-                <h3> Reports <small></small></h3>
-              </div>
-
-              <div class="title_right">
-                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="clearfix"></div>
-
-
-            <div id="table">
-              <div class="">
-                <div class="">
-                  <div class="x_title">
-                    <h2>Test Cases <small>For Project 1</small></h2>
-                    <ul class="nav navbar-right panel_toolbox">
-                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a class="close-link"><i class="fa fa-close"></i></a>
-                      </li>
-                    </ul>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
-
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>Test Case Id</th>
-                          <th>Description</th>
-                          <th>Priority</th>
-                          
-                          <th>Designer</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <!-- Display test case list -->
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>TC-001</td>
-                          <td>Verify Create Button is working properly</td>
-                          <td>2</td>
-                          <td>Abhidhar J</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>TC-002</td>
-                          <td>ave and verify the data is saved</td>
-                          <td>4</td>
-                          <td>Rovin P</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>TC-003</td>
-                          <td>Delete and verify that the row is removed</td>
-                          <td>1</td>
-                          <td>Abhidhar J</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>TC-004</td>
-                          <td>Verify View Button is working properly</td>
-                          <td>4</td>
-                          <td>Naresh K</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>TC-005</td>
-                          <td>Verify load mask is loading on screen </td>
-                          <td>3</td>
-                          <td>Lavanya B</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>TC-006</td>
-                          <td>Verify Amdin user is able to modify the changes</td>
-                          <td>2</td>
-                          <td>Abhidhar J</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                  </div>
-                </div>
-              </div>
-              <br><br><br>
-
-               <div class="">
-            <div class="page-title">
-              <div class="title_left">
-                <h3></h3>
-              </div>
-
-              <div class="title_right">
-                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="clearfix"></div>
-
-
-            <div id="table2">
-              <div class="">
-                <div class="">
-                  <div class="x_title">
-                    <h2>Bugs <small></small></h2>
-                    <ul class="nav navbar-right panel_toolbox">
-                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a class="close-link"><i class="fa fa-close"></i></a>
-                      </li>
-                    </ul>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
-
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>Bug Id</th>
-                          <th>Description</th>
-                          <th>Assigned To</th>
-                          <th>Priority</th>
-                          <th>Status</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>B-001</td>
-                          <td>Submit button not aligned properly.</td>
-                          <td>Abhidhar J</td>
-                          <td>1</td>
-                          <td>Closed</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>B-001</td>
-                          <td>Status not changing properly.</td>
-                          <td>Abhidhar J</td>
-                          <td>4</td>
-                          <td>Active</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>B-001</td>
-                          <td>Volume changes at "Service" screen.</td>
-                          <td>Abhidhar J</td>
-                          <td>1</td>
-                          <td>Closed</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">4</th>
-                          <td>B-001</td>
-                          <td>Help screen displays wrong icon.</td>
-                          <td>Abhidhar J</td>
-                          <td>4</td>
-                          <td>Open</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">5</th>
-                          <td>B-001</td>
-                          <td>View button not working.</td>
-                          <td>Abhidhar J</td>
-                          <td>2</td>
-                          <td>New</td>
-                        </tr></tbody>
-                    </table>
-
-                  </div>
-                </div>
               </div>
 
 
