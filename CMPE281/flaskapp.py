@@ -480,7 +480,6 @@ def validateLogin():
         print str(_password)
         if Val:
             if str(Val)== str(_password):
-                session['user'] = user
                 count = countTesters()
                 countTC = countTestCases()
                 countB = countBugs()
@@ -498,6 +497,4 @@ def validateLogin():
         con.close()
 
 if __name__ == "__main__":
-    app.secret_key = 'super secret key'
-    app.config['SESSION_TYPE'] = 'filesystem'
     app.run(port=5005,debug=True)
