@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/CMPE281$Unittests_in_app_py.coverage" NAME="Unittests in app.py Coverage Results" MODIFIED="1494980951833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CMPE273$Test.coverage" NAME="Test Coverage Results" MODIFIED="1491093848210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CMPE273$frontend.coverage" NAME="frontend Coverage Results" MODIFIED="1493514833787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CMPE281$app.coverage" NAME="app Coverage Results" MODIFIED="1495131341491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CMPE281$app.coverage" NAME="app Coverage Results" MODIFIED="1495139504532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="TestCaseDetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/TestCaseDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="1380">
+              <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
       <file leaf-file-name="BugDetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/BugDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="863">
               <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
               <folding />
             </state>
@@ -47,28 +47,28 @@
       <file leaf-file-name="Project.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="1350">
               <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Project1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Project1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
-              <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+              <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reoprts.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reoprts.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Reoprts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="80" column="39" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="287" column="48" lean-forward="true" selection-start-line="287" selection-start-column="48" selection-end-line="287" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+            <state relative-caret-position="1320">
+              <caret line="88" column="48" lean-forward="false" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -89,7 +89,7 @@
       <file leaf-file-name="Reports3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Reports3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="1335">
               <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
               <folding />
             </state>
@@ -99,8 +99,8 @@
       <file leaf-file-name="Report5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Report5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+            <state relative-caret-position="1170">
+              <caret line="78" column="68" lean-forward="false" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -109,8 +109,8 @@
       <file leaf-file-name="Reports.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Reports.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="73" column="75" lean-forward="true" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="75" lean-forward="false" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -119,7 +119,7 @@
       <file leaf-file-name="Reports4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Reports4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="1335">
               <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
               <folding />
             </state>
@@ -196,7 +196,6 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/TestCaseDetails.html" />
         <option value="$PROJECT_DIR$/flaskapp.py" />
-        <option value="$PROJECT_DIR$/templates/Reoprts.html" />
         <option value="$PROJECT_DIR$/templates/Reports3.html" />
         <option value="$PROJECT_DIR$/templates/Report5.html" />
         <option value="$PROJECT_DIR$/templates/Reports.html" />
@@ -204,6 +203,7 @@
         <option value="$PROJECT_DIR$/templates/BugDetails.html" />
         <option value="$PROJECT_DIR$/templates/Project.html" />
         <option value="$PROJECT_DIR$/templates/Project1.html" />
+        <option value="$PROJECT_DIR$/templates/Reoprts.html" />
       </list>
     </option>
   </component>
@@ -232,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,37 +246,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMPE281" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMPE281" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMPE281" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMPE281" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -644,7 +616,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -652,7 +623,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39719626" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3001328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3001328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -868,40 +839,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="813" column="21" lean-forward="false" selection-start-line="813" selection-start-column="21" selection-end-line="813" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-            <marker date="1495131335000" expanded="true" signature="6007:6076" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="6936:6960" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="6936:6998" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="8039:8063" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="9101:9130" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="9934:9958" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="9934:9960" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="10996:11025" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="10996:11027" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="11825:11897" ph="SELECT * FRO... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="12928:12942" ph="SELECT * FRO... userinfo" />
-            <marker date="1495131335000" expanded="true" signature="12928:12997" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="12928:13008" ph="SELECT * FRO... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="13805:13834" ph="SELECT count... userinfo" />
-            <marker date="1495131335000" expanded="true" signature="14238:14274" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="14673:14704" ph="SELECT count... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="15117:15153" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="15117:15187" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="15117:15193" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="15117:15204" ph="SELECT count... TestCaseDetails" />
-            <marker date="1495131335000" expanded="true" signature="15611:15693" ph="SELECT count... BugDetails" />
-            <marker date="1495131335000" expanded="true" signature="16111:16163" ph="SELECT * FRO... project" />
-            <marker date="1495131335000" expanded="true" signature="17300:17542" ph="insert into BugDetails... " />
-            <marker date="1495131335000" expanded="true" signature="20149:20461" ph="insert into TestCaseDetails... " />
-            <marker date="1495131335000" expanded="true" signature="21659:21713" ph="SELECT * FRO... userinfo" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Reports4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="1335">
           <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
           <folding />
         </state>
@@ -909,23 +852,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Reports.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="73" column="75" lean-forward="true" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+        <state relative-caret-position="1095">
+          <caret line="73" column="75" lean-forward="false" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Report5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+        <state relative-caret-position="1170">
+          <caret line="78" column="68" lean-forward="false" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Reports3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="1335">
           <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
           <folding />
         </state>
@@ -933,41 +876,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+        <state relative-caret-position="1320">
+          <caret line="88" column="48" lean-forward="false" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Reoprts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="80" column="39" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/TestCaseDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/BugDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="1350">
           <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
           <folding />
         </state>
@@ -976,7 +895,31 @@
     <entry file="file://$PROJECT_DIR$/templates/Project1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
-          <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/TestCaseDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/BugDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Reoprts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="287" column="48" lean-forward="true" selection-start-line="287" selection-start-column="48" selection-end-line="287" selection-end-column="48" />
           <folding />
         </state>
       </provider>
