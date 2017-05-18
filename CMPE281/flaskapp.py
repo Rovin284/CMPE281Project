@@ -30,9 +30,44 @@ def showSignin():
 @app.route('/showProject')
 def showProject():
     l1 = checkAllFromDB(user)
-    print "Inside --------"
-    print l1
+    #print "Inside --------"
+    #print l1
     return render_template('Project1.html',list1 = l1)
+
+@app.route('/showProject2', methods=['POST', 'GET'])
+def showProject2():
+    print "123456"
+    listMain = getProjectDetails()
+    list1 = listMain[0]
+    listTC = listMain[1]
+    listD = listMain[2]
+    listP = listMain[3]
+    listDe = listMain[4]
+    listToIterate = []
+
+    listMain2 = getBugDetails()
+    listToIterateB = []
+    listBugId = listMain2[0]
+    listAssignedTo = listMain2[1]
+    listDescription = listMain2[2]
+    listSeverity = listMain2[3]
+    listStatus = listMain2[4]
+
+    print listStatus
+    var = len(listDe)
+    counter = 0
+    counter1 = 0
+
+    for value in listDe:
+        listToIterate.append(counter)
+        counter = counter + 1
+
+    for value in listBugId:
+        listToIterateB.append(counter1)
+        counter1 = counter1 + 1
+
+    return render_template('Project.html',listToIterate=listToIterate,listToIterateB=listToIterateB,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe,list6 = listBugId,list8=listAssignedTo,list9=listDescription,list10=listSeverity,list11= listStatus)
+
 
 @app.route('/showTestCase')
 def showTestCase():
@@ -45,7 +80,7 @@ def showBugs():
 
 @app.route('/showReports', methods=['POST', 'GET'])
 def showReports():
-    print "123456"
+    #print "123456"
     listMain = getProjectDetailsReport()
     list1 = listMain[0]
     listTC = listMain[1]
@@ -84,6 +119,80 @@ def showIndex():
     countTC = countTestCases()
     countB = countBugs()
     return render_template('index.html', count=count, tcCount=countTC, bCount=countB)
+
+def getBugDetailsReport():
+    try:
+        con = mysql.connect()
+        cursor = con.cursor()
+        query1 = ("SELECT * FROM BugDetails ")
+
+        list2 = []
+        listBugId = []
+        listAssignedTo = []
+        listDescription = []
+        listSeverity = []
+        listStatus = []
+
+        print "---Query 1--"
+        print query1
+
+        data1 = cursor.execute(query1)
+        #print data1
+        for data1 in cursor.fetchall():
+            print "---Indsie ---"
+            i = 1
+            list2.append(i)
+            i = i + 1
+            print data1[1]
+            listBugId.append(data1[1])
+            listAssignedTo.append(data1[9])
+            listDescription.append(data1[7])
+            listSeverity.append(data1[5])
+            listStatus.append(data1[11])
+        print listAssignedTo
+        listb = [listBugId, listAssignedTo, listDescription, listSeverity, listStatus, list2]
+        return listb
+    except Exception as e:
+        return json.dumps({'error': str(e)})
+    finally:
+        cursor.close()
+        con.close()
+
+def getProjectDetailsReport():
+    try:
+        con = mysql.connect()
+        cursor = con.cursor()
+
+        query = ("SELECT * FROM TestCaseDetails ")
+
+        print query
+        list1 = []
+        listTC = []
+        listD = []
+        listP = []
+        listDe = []
+
+        data = cursor.execute(query)
+        for data in cursor.fetchall():
+            print "Inside ----"
+            print data[1]
+            i = 1
+            list1.append(i)
+            i = i + 1
+            listTC.append(data[1])
+            listD.append(data[5])
+            listP.append(data[11])
+            listDe.append(data[12])
+
+        print listTC
+        listr = [list1,listTC,listD,listP,listDe]
+        return  listr
+
+    except Exception as e:
+        return json.dumps({'error': str(e)})
+    finally:
+        cursor.close()
+        con.close()
 
 def getBugDetailsReport():
     try:
