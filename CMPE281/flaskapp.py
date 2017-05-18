@@ -66,17 +66,55 @@ def showProject2():
         listToIterateB.append(counter1)
         counter1 = counter1 + 1
 
-    return render_template('Project.html',listToIterate=listToIterate,listToIterateB=listToIterateB,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe,list6 = listBugId,list8=listAssignedTo,list9=listDescription,list10=listSeverity,list11= listStatus)
+    count = countTesters()
+    countTC = countTestCasesProject()
+    countB = countBugsProject()
+
+    return render_template('Project.html',count=count, tcCount=countTC, bCount=countB,listToIterate=listToIterate,listToIterateB=listToIterateB,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe,list6 = listBugId,list8=listAssignedTo,list9=listDescription,list10=listSeverity,list11= listStatus)
 
 
 @app.route('/showTestCase')
 def showTestCase():
-    return render_template('TestCaseDetails.html')
+    count = countTesters()
+    countTC = countTestCasesProject()
+    countB = countBugsProject()
+    return render_template('TestCaseDetails.html', count=count, tcCount=countTC, bCount=countB)
+
+@app.route('/showReport3',methods=['POST', 'GET'])
+def showReport3():
+    _name = request.form["TestCaseDesigner"]
+    data = getReportTC(_name)
+    list1 = data[0]
+    listTC = data[1]
+    listD = data[2]
+    listP = data[3]
+    listDe = data[4]
+    listToIterate = []
+
+    print "list11111"
+    print list1
+    for value in listDe:
+        listToIterate.append(counter)
+        counter = counter + 1
+        count = countTesters()
+        countTC = countTestCases()
+        countB = countBugs()
+    return render_template('Reoprts.html',count=count, tcCount=countTC, bCount=countB,listToIterate=listToIterate,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe)
+
 
 @app.route('/showBugs')
 def showBugs():
-    return render_template('BugDetails.html')
+    count = countTesters()
+    countTC = countTestCasesProject()
+    countB = countBugsProject()
+    return render_template('BugDetails.html', count=count, tcCount=countTC, bCount=countB)
 
+@app.route('/showReports2', methods=['POST', 'GET'])
+def showReports2():
+    count = countTesters()
+    countTC = countTestCases()
+    countB = countBugs()
+    return render_template('Reports.html', count=count, tcCount=countTC, bCount=countB)
 
 @app.route('/showReports', methods=['POST', 'GET'])
 def showReports():
@@ -110,7 +148,11 @@ def showReports():
         listToIterateB.append(counter1)
         counter1 = counter1 + 1
 
-    return render_template('Reoprts.html',listToIterate=listToIterate,listToIterateB=listToIterateB,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe,list6 = listBugId,list8=listAssignedTo,list9=listDescription,list10=listSeverity,list11= listStatus)
+    count = countTesters()
+    countTC = countTestCases()
+    countB = countBugs()
+
+    return render_template('Reoprts.html',count=count, tcCount=countTC, bCount=countB,listToIterate=listToIterate,listToIterateB=listToIterateB,list1 = list1,list2=listTC,list3=listD,list4=listP,list5=listDe,list6 = listBugId,list8=listAssignedTo,list9=listDescription,list10=listSeverity,list11= listStatus)
 
 
 @app.route('/showIndex')
@@ -119,6 +161,47 @@ def showIndex():
     countTC = countTestCases()
     countB = countBugs()
     return render_template('index.html', count=count, tcCount=countTC, bCount=countB)
+
+
+def getReportTC(_name):
+    try:
+        con = mysql.connect()
+        cursor = con.cursor()
+
+        query = ("SELECT * FROM TestCaseDetails "
+                 "WHERE TestCaseDesigner = %s")
+
+        cursor.execute(query, _name)
+
+        print query
+        list1 = []
+        listTC = []
+        listD = []
+        listP = []
+        listDe = []
+
+        data = cursor.execute(query)
+        for data in cursor.fetchall():
+            print "Inside ----"
+            print data[1]
+            i = 1
+            list1.append(i)
+            i = i + 1
+            listTC.append(data[1])
+            listD.append(data[5])
+            listP.append(data[11])
+            listDe.append(data[12])
+
+        print listTC
+        listr = [list1,listTC,listD,listP,listDe]
+        return  listr
+
+    except Exception as e:
+        return json.dumps({'error': str(e)})
+    finally:
+        cursor.close()
+        con.close()
+
 
 def getBugDetailsReport():
     try:
@@ -397,6 +480,51 @@ def countBugs():
         query = ("SELECT count(*) FROM BugDetails ")
 
         cursor.execute(query)
+
+        for row in cursor.fetchall():
+            user1 = row[0]
+
+        print user1
+        print "user1"
+        return user1
+    except Exception as e:
+        return json.dumps({'error': str(e)})
+    finally:
+        cursor.close()
+        con.close()
+
+
+def countTestCasesProject():
+    try:
+        con = mysql.connect()
+        cursor = con.cursor()
+
+        query1 = ("SELECT count(*) FROM TestCaseDetails "
+                 "where projectname = 'Project1'")
+
+        cursor.execute(query1)
+
+        for row in cursor.fetchall():
+            user1 = row[0]
+
+        print user1
+        print "user1"
+        return user1
+    except Exception as e:
+        return json.dumps({'error': str(e)})
+    finally:
+        cursor.close()
+        con.close()
+
+def countBugsProject():
+    try:
+        con = mysql.connect()
+        cursor = con.cursor()
+
+        query2 = ("SELECT count(*) FROM BugDetails "
+                 "where projectname = 'Project1'")
+
+        cursor.execute(query2)
 
         for row in cursor.fetchall():
             user1 = row[0]

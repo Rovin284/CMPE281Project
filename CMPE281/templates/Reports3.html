@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>Report 3 </title>
 
     <!-- Bootstrap -->
     <link href="/static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 
     <!-- Custom Theme Style -->
     <link href="/static/custom.min.css" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+      <link rel="stylesheet" type="text/css" href="../build/css/stylesheet.css">
 
   </head>
 
@@ -64,16 +64,15 @@
                   <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="showIndex">Dashboard</a></li>
-                      <li><a href="showIndex">Dashboard2</a></li>
-                      <li><a href="showIndex">Dashboard3</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> Projects <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="showProject">View Projects</a></li>
+                      <li><a href="showProject2">View Projects2</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-table"></i> Test Cases <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-desktop"></i> Test Cases <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="showTestCase">Details</a></li>
                     </ul>
@@ -87,16 +86,20 @@
                   <li><a><i class="fa fa-bar-chart-o"></i> Reports <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="showReports">View Report</a></li>
-                      <li><a href="showReports2">View Report2</a></li>
-                    </ul>
                     </ul>
                   </li>
+                  <!--<li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                      <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                    </ul>
+                  </li> -->
                 </ul>
               </div>
 
             </div>
 
-          </div>
+            </div>
         </div>
 
         <div class="top_nav">
@@ -125,30 +128,99 @@
                   </ul>
                 </li>
 
-
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">6</span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="/static/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="/static/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="/static/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="/static/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </nav>
           </div>
         </div>
 
 
-        <!-- page content -->
-
         <div class="right_col" role="main">
           <!-- top tiles -->
 
           <div class="row tile_count">
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="fa fa-user"></i> Total Testers</span>
+              <div class="count">56</div>
+              <!--<span class="count_bottom"><i class="green">4% </i> From last Week</span> -->
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-clock-o"></i> Number of Test cases </span>
-              <div class="count">{{tcCount}}</div>
+              <div class="count">436</div>
               <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span> -->
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-user"></i> Number of Bugs </span>
-              <div class="count green">{{bCount}}</div>
+              <div class="count green">283</div>
               <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> -->
             </div>
           </div>
+
+
+
 
 
 <!--           <div class="right_col" role="main">
@@ -171,11 +243,13 @@
             </div>
 
             <div class="clearfix"></div>
+
+
             <div id="table">
               <div class="">
                 <div class="">
                   <div class="x_title">
-                    <h2>Test Cases <small>For Project 1</small></h2>
+                    <h2>Test Cases <small>OverAll Project</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -202,21 +276,28 @@
                           <th>Test Case Id</th>
                           <th>Description</th>
                           <th>Priority</th>
+
                           <th>Designer</th>
                         </tr>
                       </thead>
-
                       <tbody>
-                        <!-- Display test case list -->
-
+                      <label for="TestCaseDesigner" class="sr-only">Test Case Designer</label>Test Case Designer
+                       <input type="text" name="TestCaseDesigner" id="TestCaseDesigner" class="form-control" placeholder="TestCaseDesigner's Name" required>
+                      <button id="btnSignIn" class="btn btn-primary" type="submit">Submit</button>
                         {% for value in listToIterate %}
 
                         <tr>
-                          <td>{{ listToIterate[value] }}</td>
+                          <td>{{ value+1 }}</td>
                           <td>{{ list2[value] }}</td>
                           <td>{{ list3[value] }}</td>
                           <td>{{ list4[value] }}</td>
                           <td>{{ list5[value] }}</td>
+                          <td><span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Pass</button>
+                          </span></td>
+                          <td><span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Fail</button>
+                          </span></td>
                         </tr>
                         {% endfor %}
                       </tbody>
@@ -248,7 +329,7 @@
             <div class="clearfix"></div>
 
 
-            <div id="table2">
+            <div id="table">
               <div class="">
                 <div class="">
                   <div class="x_title">
@@ -279,14 +360,14 @@
                           <th>Bug Id</th>
                           <th>Description</th>
                           <th>Assigned To</th>
-                          <th>Priority</th>
+                          <th>Severity</th>
                           <th>Status</th>
                         </tr>
                       </thead>
                       <tbody>
                         {% for value in listToIterateB %}
                         <tr>
-                          <td>{{ listToIterateB[value] }}</td>
+                          <td>{{ value+1 }}</td>
                           <td>{{ list6[value] }}</td>
                           <td>{{ list9[value] }}</td>
                           <td>{{ list8[value] }}</td>
@@ -301,10 +382,12 @@
                 </div>
               </div>
 
-
-                       </div>
+          </div>
         </div>
-   </div>
+     <br />
+
+          <div class="row">
+                </div>
                 <!-- end of weather widget -->
               </div>
             </div>

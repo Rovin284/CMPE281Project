@@ -85,6 +85,7 @@
                   <li><a><i class="fa fa-bar-chart-o"></i> Reports <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="showReports">View Report</a></li>
+                      <li><a href="showReports2">View Report2</a></li>
                     </ul>
                   </li>
                   <!--<li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
@@ -203,17 +204,17 @@
           <div class="row tile_count">
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-user"></i> Total Testers</span>
-              <div class="count">56</div>
+              <div class="count">{{count}}</div>
               <!--<span class="count_bottom"><i class="green">4% </i> From last Week</span> -->
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-clock-o"></i> Number of Test cases </span>
-              <div class="count">436</div>
+              <div class="count">{{tcCount}}</div>
               <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span> -->
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-user"></i> Number of Bugs </span>
-              <div class="count green">283</div>
+              <div class="count green">{{bCount}}</div>
               <!-- <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> -->
             </div>
           </div>
@@ -288,6 +289,12 @@
                           <td>{{ list3[value] }}</td>
                           <td>{{ list4[value] }}</td>
                           <td>{{ list5[value] }}</td>
+                          <td><span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Pass</button>
+                          </span></td>
+                          <td><span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Fail</button>
+                          </span></td>
                         </tr>
                         {% endfor %}
                       </tbody>
